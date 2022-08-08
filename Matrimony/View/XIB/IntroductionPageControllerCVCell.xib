@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="IntroductionPageControllerCVCell" id="gTV-IL-0wX" customClass="IntroductionPageControllerCVCell" customModule="Matrimony" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="261" height="317"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="261" height="317"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUz-zf-P2g">
+                        <rect key="frame" x="0.0" y="0.0" width="261" height="317"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_introduction_one" translatesAutoresizingMaskIntoConstraints="NO" id="i5B-Hd-H68">
+                                <rect key="frame" x="0.0" y="0.0" width="261" height="317"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="i5B-Hd-H68" secondAttribute="bottom" id="DYU-D1-vJ6"/>
+                            <constraint firstItem="i5B-Hd-H68" firstAttribute="leading" secondItem="cUz-zf-P2g" secondAttribute="leading" id="iam-1m-aWj"/>
+                            <constraint firstItem="i5B-Hd-H68" firstAttribute="top" secondItem="cUz-zf-P2g" secondAttribute="top" id="vaY-9C-m2X"/>
+                            <constraint firstAttribute="trailing" secondItem="i5B-Hd-H68" secondAttribute="trailing" id="vgK-bZ-dx7"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="120"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="cUz-zf-P2g" secondAttribute="trailing" id="EgN-2b-9uJ"/>
+                <constraint firstItem="cUz-zf-P2g" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="mOi-nZ-TZR"/>
+                <constraint firstItem="cUz-zf-P2g" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="uT2-dw-pU7"/>
+                <constraint firstAttribute="bottom" secondItem="cUz-zf-P2g" secondAttribute="bottom" id="xJz-ue-y72"/>
+            </constraints>
+            <size key="customSize" width="261" height="317"/>
+            <connections>
+                <outlet property="imgIntroductionStep" destination="i5B-Hd-H68" id="cje-xX-Rmt"/>
+                <outlet property="viewImageBackground" destination="cUz-zf-P2g" id="1o3-fM-BNN"/>
+            </connections>
+            <point key="canvasLocation" x="284.78260869565219" y="187.83482142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="img_introduction_one" width="720" height="746"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26FF5845DEFEB35C5950EAEA /* Pods_Matrimony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB2F5A41FC4D17D6E6E91BB /* Pods_Matrimony.framework */; };
 		E093CA3B28A15E31009D1263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E093CA3A28A15E31009D1263 /* AppDelegate.swift */; };
 		E093CA3F28A15E31009D1263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E093CA3E28A15E31009D1263 /* ViewController.swift */; };
-		E093CA4228A15E31009D1263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E093CA4028A15E31009D1263 /* Main.storyboard */; };
 		E093CA4428A15E33009D1263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E093CA4328A15E33009D1263 /* Assets.xcassets */; };
 		E093CA4728A15E33009D1263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E093CA4528A15E33009D1263 /* LaunchScreen.storyboard */; };
+		E093CA5128A164F1009D1263 /* Introduction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E093CA5028A164F1009D1263 /* Introduction.storyboard */; };
+		E093CA5528A1696F009D1263 /* IntroductionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E093CA5428A1696F009D1263 /* IntroductionVC.swift */; };
+		E093CA5E28A16D46009D1263 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E093CA5928A16D45009D1263 /* Poppins-Medium.ttf */; };
+		E093CA5F28A16D46009D1263 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E093CA5A28A16D45009D1263 /* Poppins-Light.ttf */; };
+		E093CA6028A16D46009D1263 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E093CA5B28A16D45009D1263 /* Poppins-Bold.ttf */; };
+		E093CA6128A16D46009D1263 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E093CA5C28A16D45009D1263 /* Poppins-SemiBold.ttf */; };
+		E093CA6228A16D46009D1263 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E093CA5D28A16D46009D1263 /* Poppins-Regular.ttf */; };
+		E093CA6528A16F6B009D1263 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E093CA6428A16F6B009D1263 /* UIView+Extension.swift */; };
+		E093CA6728A17789009D1263 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E093CA6628A17789009D1263 /* UIColor+Extension.swift */; };
+		E093CA6B28A17888009D1263 /* IntroductionPageControllerCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E093CA6928A17888009D1263 /* IntroductionPageControllerCVCell.swift */; };
+		E093CA6C28A17888009D1263 /* IntroductionPageControllerCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E093CA6A28A17888009D1263 /* IntroductionPageControllerCVCell.xib */; };
+		E093CA6F28A17B77009D1263 /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E093CA6E28A17B77009D1263 /* UtilityFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A2980866786D9A9037FE34A /* Pods-Matrimony.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matrimony.debug.xcconfig"; path = "Target Support Files/Pods-Matrimony/Pods-Matrimony.debug.xcconfig"; sourceTree = "<group>"; };
+		8BB2F5A41FC4D17D6E6E91BB /* Pods_Matrimony.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Matrimony.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C37790AEE90B8CA51231FDB /* Pods-Matrimony.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matrimony.release.xcconfig"; path = "Target Support Files/Pods-Matrimony/Pods-Matrimony.release.xcconfig"; sourceTree = "<group>"; };
 		E093CA3728A15E31009D1263 /* Matrimony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matrimony.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E093CA3A28A15E31009D1263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E093CA3E28A15E31009D1263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E093CA4128A15E31009D1263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E093CA4328A15E33009D1263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E093CA4628A15E33009D1263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E093CA4828A15E33009D1263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E093CA5028A164F1009D1263 /* Introduction.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Introduction.storyboard; sourceTree = "<group>"; };
+		E093CA5428A1696F009D1263 /* IntroductionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionVC.swift; sourceTree = "<group>"; };
+		E093CA5928A16D45009D1263 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		E093CA5A28A16D45009D1263 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		E093CA5B28A16D45009D1263 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		E093CA5C28A16D45009D1263 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		E093CA5D28A16D46009D1263 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		E093CA6428A16F6B009D1263 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E093CA6628A17789009D1263 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		E093CA6928A17888009D1263 /* IntroductionPageControllerCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionPageControllerCVCell.swift; sourceTree = "<group>"; };
+		E093CA6A28A17888009D1263 /* IntroductionPageControllerCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroductionPageControllerCVCell.xib; sourceTree = "<group>"; };
+		E093CA6E28A17B77009D1263 /* UtilityFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FF5845DEFEB35C5950EAEA /* Pods_Matrimony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BA225004707C562F2013E0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BB2F5A41FC4D17D6E6E91BB /* Pods_Matrimony.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		544C5ABB9F7C6473DD813849 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A2980866786D9A9037FE34A /* Pods-Matrimony.debug.xcconfig */,
+				9C37790AEE90B8CA51231FDB /* Pods-Matrimony.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E093CA2E28A15E31009D1263 = {
 			isa = PBXGroup;
 			children = (
 				E093CA3928A15E31009D1263 /* Matrimony */,
 				E093CA3828A15E31009D1263 /* Products */,
+				544C5ABB9F7C6473DD813849 /* Pods */,
+				2BA225004707C562F2013E0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +102,11 @@
 			children = (
 				E093CA3A28A15E31009D1263 /* AppDelegate.swift */,
 				E093CA3E28A15E31009D1263 /* ViewController.swift */,
-				E093CA4328A15E33009D1263 /* Assets.xcassets */,
 				E093CA4828A15E33009D1263 /* Info.plist */,
+				E093CA5628A16D1C009D1263 /* Resource */,
 				E093CA4E28A15E5A009D1263 /* View */,
+				E093CA5228A1693A009D1263 /* Controller */,
+				E093CA6328A16F3C009D1263 /* Extensions */,
 			);
 			path = Matrimony;
 			sourceTree = "<group>";
@@ -67,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				E093CA4F28A15E63009D1263 /* SB */,
+				E093CA6828A17855009D1263 /* XIB */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -75,9 +124,81 @@
 			isa = PBXGroup;
 			children = (
 				E093CA4528A15E33009D1263 /* LaunchScreen.storyboard */,
-				E093CA4028A15E31009D1263 /* Main.storyboard */,
+				E093CA5028A164F1009D1263 /* Introduction.storyboard */,
 			);
 			path = SB;
+			sourceTree = "<group>";
+		};
+		E093CA5228A1693A009D1263 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E093CA5328A16953009D1263 /* Introduction */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E093CA5328A16953009D1263 /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+				E093CA6928A17888009D1263 /* IntroductionPageControllerCVCell.swift */,
+				E093CA5428A1696F009D1263 /* IntroductionVC.swift */,
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		E093CA5628A16D1C009D1263 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E093CA4328A15E33009D1263 /* Assets.xcassets */,
+				E093CA5728A16D2A009D1263 /* Fonts */,
+				E093CA6D28A17B51009D1263 /* Utility */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E093CA5728A16D2A009D1263 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E093CA5828A16D30009D1263 /* Poppins */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E093CA5828A16D30009D1263 /* Poppins */ = {
+			isa = PBXGroup;
+			children = (
+				E093CA5B28A16D45009D1263 /* Poppins-Bold.ttf */,
+				E093CA5A28A16D45009D1263 /* Poppins-Light.ttf */,
+				E093CA5928A16D45009D1263 /* Poppins-Medium.ttf */,
+				E093CA5D28A16D46009D1263 /* Poppins-Regular.ttf */,
+				E093CA5C28A16D45009D1263 /* Poppins-SemiBold.ttf */,
+			);
+			path = Poppins;
+			sourceTree = "<group>";
+		};
+		E093CA6328A16F3C009D1263 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E093CA6428A16F6B009D1263 /* UIView+Extension.swift */,
+				E093CA6628A17789009D1263 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E093CA6828A17855009D1263 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				E093CA6A28A17888009D1263 /* IntroductionPageControllerCVCell.xib */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		E093CA6D28A17B51009D1263 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				E093CA6E28A17B77009D1263 /* UtilityFunctions.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,9 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E093CA4B28A15E33009D1263 /* Build configuration list for PBXNativeTarget "Matrimony" */;
 			buildPhases = (
+				8F32827558DF53906028D3CA /* [CP] Check Pods Manifest.lock */,
 				E093CA3328A15E31009D1263 /* Sources */,
 				E093CA3428A15E31009D1263 /* Frameworks */,
 				E093CA3528A15E31009D1263 /* Resources */,
+				D64ED90CB25F75343361B102 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -138,35 +261,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E093CA5128A164F1009D1263 /* Introduction.storyboard in Resources */,
+				E093CA6128A16D46009D1263 /* Poppins-SemiBold.ttf in Resources */,
+				E093CA6028A16D46009D1263 /* Poppins-Bold.ttf in Resources */,
+				E093CA6C28A17888009D1263 /* IntroductionPageControllerCVCell.xib in Resources */,
+				E093CA5F28A16D46009D1263 /* Poppins-Light.ttf in Resources */,
+				E093CA5E28A16D46009D1263 /* Poppins-Medium.ttf in Resources */,
 				E093CA4728A15E33009D1263 /* LaunchScreen.storyboard in Resources */,
 				E093CA4428A15E33009D1263 /* Assets.xcassets in Resources */,
-				E093CA4228A15E31009D1263 /* Main.storyboard in Resources */,
+				E093CA6228A16D46009D1263 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F32827558DF53906028D3CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Matrimony-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D64ED90CB25F75343361B102 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Matrimony/Pods-Matrimony-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Matrimony/Pods-Matrimony-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Matrimony/Pods-Matrimony-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E093CA3328A15E31009D1263 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E093CA5528A1696F009D1263 /* IntroductionVC.swift in Sources */,
 				E093CA3F28A15E31009D1263 /* ViewController.swift in Sources */,
+				E093CA6528A16F6B009D1263 /* UIView+Extension.swift in Sources */,
 				E093CA3B28A15E31009D1263 /* AppDelegate.swift in Sources */,
+				E093CA6728A17789009D1263 /* UIColor+Extension.swift in Sources */,
+				E093CA6F28A17B77009D1263 /* UtilityFunctions.swift in Sources */,
+				E093CA6B28A17888009D1263 /* IntroductionPageControllerCVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E093CA4028A15E31009D1263 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E093CA4128A15E31009D1263 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E093CA4528A15E33009D1263 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,6 +464,7 @@
 		};
 		E093CA4C28A15E33009D1263 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A2980866786D9A9037FE34A /* Pods-Matrimony.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -305,7 +474,7 @@
 				INFOPLIST_FILE = Matrimony/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Introduction;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
@@ -324,6 +493,7 @@
 		};
 		E093CA4D28A15E33009D1263 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C37790AEE90B8CA51231FDB /* Pods-Matrimony.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -333,7 +503,7 @@
 				INFOPLIST_FILE = Matrimony/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Introduction;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
