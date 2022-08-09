@@ -14,6 +14,8 @@ class IntroductionVC: UIViewController {
     
     @IBOutlet weak var collectionPageContainer: UICollectionView!
     @IBOutlet weak var viewPageController: UIView!
+    @IBOutlet weak var lblHeaderTitle: UILabel!
+    @IBOutlet weak var lblDescTitle: UILabel!
     
     // MARK: - Variables
     
@@ -37,6 +39,14 @@ class IntroductionVC: UIViewController {
 
 }
 
+// MARK: - Button Action Methods
+extension IntroductionVC {
+    @IBAction func btnSignInTapped(_ sender: UIButton) {
+        let vc = loadVC(strStoryboardId: "Authentication", strVCId: "LoginVC") as! LoginVC
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+}
+
 // MARK: - Class Functions
 extension IntroductionVC {
     func setUPageCollectionView() {
@@ -52,6 +62,16 @@ extension IntroductionVC {
         let progressInPage = scrollView.contentOffset.x - (page * scrollView.bounds.width)
         let progress = CGFloat(page) + progressInPage
         self.codePageControl.progress = progress
+        if progress == 0 {
+            self.lblHeaderTitle.text = "Now, Chat for free!"
+            self.lblDescTitle.text = "To help you make better connections & meaningful Conversations to Find the one!"
+        } else if progress == 1 {
+            self.lblHeaderTitle.text = "100% Manually Screened Profiles"
+            self.lblDescTitle.text = "Search by location, Community, Profession & more from lacs of Govt-ID verified profiles"
+        } else if progress == 2 {
+            self.lblHeaderTitle.text = "Connect over voice deo calls"
+            self.lblDescTitle.text = "Enjoy secure conversations using our voice & viedo calling services without revealing your number"
+        }
     }
 }
 
@@ -78,6 +98,5 @@ extension IntroductionVC: UICollectionViewDelegate, UICollectionViewDataSource, 
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 0
     }
-    
     
 }

@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		26FF5845DEFEB35C5950EAEA /* Pods_Matrimony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BB2F5A41FC4D17D6E6E91BB /* Pods_Matrimony.framework */; };
+		E06DB6FA28A2C89700064CF6 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E06DB6F928A2C89700064CF6 /* Authentication.storyboard */; };
+		E06DB6FD28A2D2E900064CF6 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06DB6FC28A2D2E900064CF6 /* LoginVC.swift */; };
+		E06DB6FF28A2D9E300064CF6 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06DB6FE28A2D9E300064CF6 /* RegisterVC.swift */; };
 		E093CA3B28A15E31009D1263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E093CA3A28A15E31009D1263 /* AppDelegate.swift */; };
-		E093CA3F28A15E31009D1263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E093CA3E28A15E31009D1263 /* ViewController.swift */; };
 		E093CA4428A15E33009D1263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E093CA4328A15E33009D1263 /* Assets.xcassets */; };
 		E093CA4728A15E33009D1263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E093CA4528A15E33009D1263 /* LaunchScreen.storyboard */; };
 		E093CA5128A164F1009D1263 /* Introduction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E093CA5028A164F1009D1263 /* Introduction.storyboard */; };
@@ -30,9 +32,11 @@
 		7A2980866786D9A9037FE34A /* Pods-Matrimony.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matrimony.debug.xcconfig"; path = "Target Support Files/Pods-Matrimony/Pods-Matrimony.debug.xcconfig"; sourceTree = "<group>"; };
 		8BB2F5A41FC4D17D6E6E91BB /* Pods_Matrimony.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Matrimony.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C37790AEE90B8CA51231FDB /* Pods-Matrimony.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matrimony.release.xcconfig"; path = "Target Support Files/Pods-Matrimony/Pods-Matrimony.release.xcconfig"; sourceTree = "<group>"; };
+		E06DB6F928A2C89700064CF6 /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		E06DB6FC28A2D2E900064CF6 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E06DB6FE28A2D9E300064CF6 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		E093CA3728A15E31009D1263 /* Matrimony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matrimony.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E093CA3A28A15E31009D1263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E093CA3E28A15E31009D1263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E093CA4328A15E33009D1263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E093CA4628A15E33009D1263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E093CA4828A15E33009D1263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +83,15 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E06DB6FB28A2D2CB00064CF6 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				E06DB6FC28A2D2E900064CF6 /* LoginVC.swift */,
+				E06DB6FE28A2D9E300064CF6 /* RegisterVC.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		E093CA2E28A15E31009D1263 = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				E093CA3A28A15E31009D1263 /* AppDelegate.swift */,
-				E093CA3E28A15E31009D1263 /* ViewController.swift */,
 				E093CA4828A15E33009D1263 /* Info.plist */,
 				E093CA5628A16D1C009D1263 /* Resource */,
 				E093CA4E28A15E5A009D1263 /* View */,
@@ -125,6 +137,7 @@
 			children = (
 				E093CA4528A15E33009D1263 /* LaunchScreen.storyboard */,
 				E093CA5028A164F1009D1263 /* Introduction.storyboard */,
+				E06DB6F928A2C89700064CF6 /* Authentication.storyboard */,
 			);
 			path = SB;
 			sourceTree = "<group>";
@@ -133,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				E093CA5328A16953009D1263 /* Introduction */,
+				E06DB6FB28A2D2CB00064CF6 /* Authentication */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -265,6 +279,7 @@
 				E093CA6128A16D46009D1263 /* Poppins-SemiBold.ttf in Resources */,
 				E093CA6028A16D46009D1263 /* Poppins-Bold.ttf in Resources */,
 				E093CA6C28A17888009D1263 /* IntroductionPageControllerCVCell.xib in Resources */,
+				E06DB6FA28A2C89700064CF6 /* Authentication.storyboard in Resources */,
 				E093CA5F28A16D46009D1263 /* Poppins-Light.ttf in Resources */,
 				E093CA5E28A16D46009D1263 /* Poppins-Medium.ttf in Resources */,
 				E093CA4728A15E33009D1263 /* LaunchScreen.storyboard in Resources */,
@@ -323,10 +338,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E093CA5528A1696F009D1263 /* IntroductionVC.swift in Sources */,
-				E093CA3F28A15E31009D1263 /* ViewController.swift in Sources */,
+				E06DB6FD28A2D2E900064CF6 /* LoginVC.swift in Sources */,
 				E093CA6528A16F6B009D1263 /* UIView+Extension.swift in Sources */,
 				E093CA3B28A15E31009D1263 /* AppDelegate.swift in Sources */,
 				E093CA6728A17789009D1263 /* UIColor+Extension.swift in Sources */,
+				E06DB6FF28A2D9E300064CF6 /* RegisterVC.swift in Sources */,
 				E093CA6F28A17B77009D1263 /* UtilityFunctions.swift in Sources */,
 				E093CA6B28A17888009D1263 /* IntroductionPageControllerCVCell.swift in Sources */,
 			);

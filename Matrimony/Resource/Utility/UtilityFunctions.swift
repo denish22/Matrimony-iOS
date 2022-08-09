@@ -19,3 +19,14 @@ public func screenHeight() -> CGFloat {
     let screenSize = UIScreen.main.bounds
     return screenSize.height
 }
+
+/// Load or Navigate view controller
+public func loadVC(strStoryboardId: String, strVCId: String) -> UIViewController {
+    let vc = getStoryboard(storyboardName: strStoryboardId).instantiateViewController(withIdentifier: strVCId)
+    return vc
+}
+
+/// Get storyboard
+public func getStoryboard(storyboardName: String) -> UIStoryboard {
+    return UIStoryboard(name: storyboardName, bundle: nil)
+}
